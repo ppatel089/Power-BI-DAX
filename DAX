@@ -1,0 +1,7 @@
+CONCATENATEX(
+			VALUES('Acknowledged Alerts'[Creation Date] ),
+			'Acknowledged Alerts'[Creation Date],
+			", ",
+			'Acknowledged Alerts'[Creation Date],
+			ASC
+		)
