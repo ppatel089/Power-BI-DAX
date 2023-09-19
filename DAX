@@ -1,7 +1,7 @@
 CONCATENATEX(
-			VALUES('Acknowledged Alerts'[Creation Date] ),
-			'Acknowledged Alerts'[Creation Date],
+			VALUES('A'[Date] ),
+			'A'[Date],
 			", ",
-			'Acknowledged Alerts'[Creation Date],
+			'A'[Date],
 			ASC
 		)
